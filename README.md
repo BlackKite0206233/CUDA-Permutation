@@ -1,6 +1,6 @@
-# CUDA-Permutation([Game-Simulation](https://github.com/Li-AnLin/Game-Simulation))
+# CUDA-Permutation([Game-Simulation](https://github.com/Li-AnLin/Game-Simulation)) 對照組
 
-用CUDA模擬 [Slot machine](https://www.slotsmillion.com/en/games/) 的排列組合，並能夠模擬指定盤面的出現的機率。
+不用CUDA模擬 [Slot machine](https://www.slotsmillion.com/en/games/) 的排列組合，並能夠模擬指定盤面的出現的機率。
 
 ## Input
 
@@ -28,7 +28,7 @@
 ![output.csv](data/ScreenShot/output.png)
 
 ---------------------------------------------
-# Debug紀錄
+# Debug紀錄 (實驗組)
 ## 多個Thread同時使用同個Memory進行累加，導致累加錯誤。
 參考https://www.ptt.cc/bbs/C_and_CPP/M.1271911923.A.2B8.html
 1. 使用`atomicAdd(&x, 1)`代替`x += 1`。(效率較低，但比較好改)
