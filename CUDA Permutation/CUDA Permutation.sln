@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUDA Permutation", "CUDA Permutation\CUDA Permutation.vcxproj", "{9CC424E1-11CB-4674-AA7E-9E711612977B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CUDA Permutation", "CUDA Permutation\CUDA Permutation.vcxproj", "{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Debug|x64.ActiveCfg = Debug|x64
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Debug|x64.Build.0 = Debug|x64
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Debug|x86.ActiveCfg = Debug|Win32
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Debug|x86.Build.0 = Debug|Win32
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Release|x64.ActiveCfg = Release|x64
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Release|x64.Build.0 = Release|x64
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Release|x86.ActiveCfg = Release|Win32
-		{9CC424E1-11CB-4674-AA7E-9E711612977B}.Release|x86.Build.0 = Release|Win32
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Debug|x64.ActiveCfg = Debug|x64
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Debug|x64.Build.0 = Debug|x64
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Debug|x86.ActiveCfg = Debug|Win32
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Debug|x86.Build.0 = Debug|Win32
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Release|x64.ActiveCfg = Release|x64
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Release|x64.Build.0 = Release|x64
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Release|x86.ActiveCfg = Release|Win32
+		{035A6B71-E8CF-463D-8A5F-4E34D8C89DCA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
