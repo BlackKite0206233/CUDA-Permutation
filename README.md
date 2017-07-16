@@ -25,18 +25,10 @@
 
 [output.csv(暫定格式)](data/output.csv)
 
-![output.csv](data/ScreenShot/output.png)
+![output.csv](data/ScreenShot/output without CUDA.png)
+
+執行時間27s，大約是用CUDA的27倍  
 
 ---------------------------------------------
 # Debug紀錄 (實驗組)
-## 多個Thread同時使用同個Memory進行累加，導致累加錯誤。
-參考https://www.ptt.cc/bbs/C_and_CPP/M.1271911923.A.2B8.html
-1. 使用`atomicAdd(&x, 1)`代替`x += 1`。(效率較低，但比較好改)
-2. 每個Thread使用的memory切乾淨，最後再用CPU算Sum。(效率較高)
-### 比較效率(左:atomicAdd, 右: Thread切乾淨後Sum)
-![compare01](data/ScreenShot/compare01.png)
-
-![compare02](data/ScreenShot/compare02.png)
-
-![compare03](data/ScreenShot/compare03.png)
 

@@ -121,10 +121,10 @@ int main(int argc, char** argv) {
     *host_noHitTimes = 0;
 
     reelSets = new int[STOPS_SIZE];
-    memcpy(reelSets, STOPS, STOPS_SIZE);
+    memcpy(reelSets, STOPS, STOPS_SIZE * sizeof(int));
 
     winningSets = new int[PAY_TABLE_REAL_SIZE];
-    memcpy(winningSets, PAY_TABLE, PAY_TABLE_REAL_SIZE);
+    memcpy(winningSets, PAY_TABLE, PAY_TABLE_REAL_SIZE * sizeof(int));
 
     // Simulate.
     Simulate(COLUMN_SIZE, REEL_ROW_SIZE, reelSets, STOPS_SIZE, winningSets, PAY_TABLE_SIZE, 50000000, host_hitTimes, host_noHitTimes);
