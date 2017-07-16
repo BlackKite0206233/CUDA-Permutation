@@ -25,7 +25,7 @@
 
 [output.csv(暫定格式)](data/output.csv)
 
-![output.csv](data/ScreenShot/output without CUDA.png)
+![output.csv](data/ScreenShot/output (without CUDA).png)
 
 執行時間27s，大約是用CUDA的27倍  
 
